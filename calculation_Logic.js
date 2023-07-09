@@ -103,3 +103,10 @@ eval.addEventListener('click', function (e) {
         // console.log(firstNum);
         // console.log(secondNum);
 });
+
+
+let clear = document.querySelector(".clear");
+clear.addEventListener('click', function (e) {
+    lcd.textContent = "";
+    
+});

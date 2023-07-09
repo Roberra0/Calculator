@@ -1,7 +1,9 @@
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:first baseline;
+    height: 1200px;
+    background-image: linear-gradient(to right top, #051937, #005079, #008c8b, #00c463, #e4eb12);
 }
 #calcEdge {
     border: 1px solid rgb(48, 61, 75);

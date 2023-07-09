@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calcEdge {
+    border: 1px solid rgb(48, 61, 75);
+    width: 270px;
+    height: 400px;
+    border-radius: 7px;
+    box-shadow: 3px 0px 0px 0px rgba(0, 0, 0, 0.839), 2px 4px 0px 0px  rgb(0, 0, 0),4px 4px 4px 4px gray;
+    background-color: #023047;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    /* border: 1px solid rgb(51, 143, 242); */
+    width:100%;
+    height: 10%;
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.speaker {
+    box-sizing: border-box; /*incorporates margins, borders, padding in all dimension declarations*/
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    font-family: 'Courier', monospace;
+    font-size: 8px;
+    margin: 0px 0px 0px 15px;
+    background-color: rgb(148, 145, 145);
+    border-radius: 10px;
+}
+
+.battery{
+    /* border: 1px solid red; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+    margin: 0px 15px 0px 0px;
+
+}
+
+.battery div {
+    box-sizing: border-box; /*incorporates margins, borders, padding in all dimension declarations*/
+    width: 10px;
+    height: 50%;
+    /* border: 1px solid red; */
+    background-color: #3BB273;
+    border-radius: 10%;
+}
+
+#lcd {
+    /* border: 1px solid rgb(51, 143, 242); */
+    width:90%;
+    height: 15%;
+    border-radius: 5px;
+    background-color: #8ecae6;
+    font-family: 'Courier', monospace;
+    font-size: larger;
+    display: flex;
+    padding-left: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#keypad {
+    box-sizing: border-box; /*incorporates margins, borders, padding in all dimension declarations*/
+    /* border: 1px solid rgb(51, 143, 242); */
+    width:100%;
+    height: 65%;
+    margin: 1px 0px 10px 0px;
+    padding: 10px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto; /*Defines how many columns and the width of each*/
+    grid-template-rows: auto auto auto auto;/*Defines how many rows and the width of each*/
+    gap: 1em;
+    
+}
+
+button {
+    font-family: sans-serif;
+    font-size: 1.75em;
+    font-weight:400;
+    color: white;
+    background-color: #8ecae6;
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 50%;
+}
+
+.operator {
+    background-color: #ffb703;
+}
+
+#cleardiv {
+    box-sizing: border-box; /*incorporates margins, borders, padding in all dimension declarations*/
+    /* border: 1px solid rgb(51, 143, 242); */
+    padding-top: 9px;
+    padding-right: 8px;
+    width: 90%;
+    height: 26px;  
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+}
+
+.clear{
+    width: 20%;
+    height: 100%;
+    border-radius: 0%;
+    background-color: rgb(206, 0, 0);
+    font-family: sans-serif;
+    font-size: .6em;
+    font-weight:100;
+}
